@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img {
+    width: 1000px;
+    height: 150px;
+}
+
+.nav-ul {
+    margin-right: 100px;
+    /* width: 400px;
+height: 100px; */
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Principal */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+h3 {
+    margin-right: 50px;
+}
+
+.div-al {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+/*PELICULAS*/
+/* .PeliculasH {
+
+    width: 100%;
+    height: 200px;
+}
+.galaxia-img{
+    width: 100%;
+    height: 200px;
+}
+.galaxia-p{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: cursive;
+}
+.Principal .Pelicula{
+    width: 500px;
+    height: 400px;
+
+}
+Principal{
+    display: flex;
+    justify-content: center;
+} */
